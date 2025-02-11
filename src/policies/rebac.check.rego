@@ -17,10 +17,12 @@ allowed {
     "subject_type": "user",
     "subject_id": input.user.id
   })
-
-  allowed {
-     not input.user.disabled
-  } else {
-     input.user.disabled != true
-  }
 }
+
+
+allowed {
+  not input.user.disabled
+} else {
+  input.user.disabled != true
+}
+
