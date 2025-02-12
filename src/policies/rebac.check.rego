@@ -23,6 +23,6 @@ allowed {
 allowed {
   not input.user.disabled
 } else {
-  input.user.disabled != true
+  input.user.disabled != false
 }
 
