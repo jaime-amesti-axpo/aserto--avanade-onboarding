@@ -20,9 +20,9 @@ allowed {
 }
 
 
-allowed {
-  not input.user.disabled
-} else {
-  input.user.disabled != true
-}
+#allowed {
+#  not input.user.disabled
+#} else {
+#  input.user.disabled != true
+#}
 
