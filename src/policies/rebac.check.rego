@@ -21,8 +21,8 @@ allowed {
 
 
 #allowed {
-#  not input.user.disabled
+#  not input.user.properties.disabled
 #} else {
-#  input.user.disabled != true
+#  input.user.properties.disabled != true
 #}
 
